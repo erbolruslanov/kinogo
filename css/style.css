@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: black;
+}
+
+header {
+    background-color: grey;
+    padding: 5px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    margin-right: 150px;
+    font-weight: 700;
+    color: black;
+    font-size: 28px;
+    border-radius: 10px;
+    transition: 0.6s;
+}
+
+.logo:hover {
+    color: #282828;
+    box-shadow: 0 0 15px 5px #000000;
+}
+
+.header-menu {
+    font-weight: 300;
+    color: black;
+    font-size: 18px;
+    border-radius: 10px;
+    transition: 0.6s;
+    margin: 0 10px;
+}
+
+.header-menu:hover {
+    color: #282828;
+    box-shadow: 0 0 15px 5px #000000;
+}
+
+.src {
+    width: 200px;
+    padding: 0 10px;
+    font-size: 20px;
+    transition: 0.6s;
+    border-radius: 10px;
+}
+
+.src:hover {
+    box-shadow: 0 0 15px 5px #000000;
+    transform: scale(1.1);
+}
+
+.btn {
+    padding: 0 15px;
+    font-size: 18px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn:hover {
+    box-shadow: 0 0 5px 5px #000000;
+    transform: scale(1.1);
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+.title-pick {
+    font-weight: 400;
+    font-size: 25px;
+    color: snow;
+}
+
+li {
+    padding: 8px 0;
+    font-weight: 300;
+    font-size: 15px;
+    list-style: none;
+    transition: 0.6s;
+}
+
+li:hover {
+    transform: scale(1.1);
+}
+
+.list-pick {
+    color: snow;
+}
+
+.col-4 {
+    width: 33.3333%;
+    padding: 0 15px;
+}
+
+.col-6 {
+    padding: 0 15px;
+    width: 50%;
+}
+
+.film-items {
+    border-radius: 20px;
+    border: 2px double black;
+    margin-bottom: 30px;
+    padding: 10px 0;
+    transition: 0.6s;
+    background-color: #838383;
+}
+
+.film-items:hover {
+    box-shadow: 0 0 20px 5px black;
+    transform: scale(1.1);
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.name-film {
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+.description {
+    font-weight: 300;
+    padding: 10px 0;
+    font-size: 15px;
+
+}
+
+.img {
+    height: 150px;
+}
+
+.img img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.col-8 {
+    width:66.6666%;
+    padding: 0 15px;
+}
+
+.col-3 {
+    width: 25%;
+    padding: 0 4px;
+}
