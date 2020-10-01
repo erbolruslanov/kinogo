@@ -49,6 +49,7 @@ a {
     border-radius: 10px;
     transition: 0.6s;
     margin: 0 10px;
+    padding: 0 10px;
 }
 
 .header-menu:hover {
